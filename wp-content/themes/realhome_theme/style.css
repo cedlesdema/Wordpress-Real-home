@@ -1,0 +1,385 @@
+/*
+Theme Name: RealHome
+Description: Theme test de Cédric Lesdema
+Author: Cédric - LESDEMA
+Version: 0.1.0
+*/
+
+
+
+body {
+    margin: 0;
+}
+
+
+u,a,li {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: oblique;
+}
+
+header {
+    padding: 0.5%;
+    box-shadow: 0 3px 3px grey;
+}
+
+.menu_nav ul:hover{
+    padding-top: 50px ;
+    padding-bottom: 30px;
+    background-color: #909683;
+}
+
+
+.menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0
+}
+
+.menu_header li {
+    float: left;
+    font-size: large;
+}
+
+.menu_header a{
+    color: grey;
+}
+
+header li:hover{
+    background-color: #5A5A5A;
+
+
+}
+.menu_header li a p{
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+header li{
+    padding: 25px;
+}
+
+
+.img-home {
+    padding-top: 1px;
+    position: relative;
+    width: 100%;
+
+
+}
+
+.title-home {
+    font-size: large;
+    font-weight:bold;
+    color: #f9fafd;
+    position: absolute;
+    top: 800px;
+    left: 350px;
+    text-align: center;
+    width: 50em;
+}
+
+
+
+.mid-page{
+    display: flex;
+    padding: 30px;
+    font-size: 1.8em;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.mid-page h2{
+    text-align: end;
+    width: 10em;
+}
+
+.hr-title {
+
+    border-top: 3px solid rgb(8, 8, 8);
+}
+
+.mid-page p{
+    display: flex;
+    font-size: 0.6em;
+    width: 800px;
+    text-align: justify;
+}
+
+.bottom-page{
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+.bottom-content{
+    margin:15px;
+}
+.bottom-content i{
+    font-size: 1.5em;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hr2 {
+    border-top: 3px solid rgb(175, 32, 24);
+}
+
+.paragraph-c {
+    width: 35em;
+}
+
+.container-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.container-03{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.img-apropos{
+    width: 40%;
+}
+
+
+.card {
+    width: 30%;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+.card-img-top{
+    width: 100%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-text-price {
+    color: #E2574C;
+}
+
+.card-footer {
+    display: flex;
+    border-top: 1px solid #727272;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.button {
+    color: white;
+    border-radius:5px;
+    border:1px solid #af2018;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    cursor:pointer;
+    background-color: #af2018;
+}
+
+.button:hover{
+    background-color: #af5359;
+}
+
+.btn {
+    width: 175px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.card-agent{
+    border: 1px solid #727272;
+    border-radius: 4px;
+}
+
+.card a{
+    color: #4a4a57;
+}
+
+.card-footer-agent {
+    text-align: center;
+}
+
+.tag{
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: #303030;
+    padding-top: 50px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(46, 46, 46);
+    padding: 0 5% 0 5%;
+}
+.footerLeftPart{
+    margin-top: 5%;
+}
+.footerLeftPart{
+    display: flex;
+    padding: 3% 0 3% 0;
+}
+.footerLeftPartTwo {
+    margin-left: 30%;
+   text-align: center;
+}
+
+footer li {
+    padding: 10%  0 0 0;
+    text-align: left;
+    color: white;
+}
+.footer ul {
+    display: block;
+    align-content: center;
+    padding-left: 0;
+    color: white;
+}
+
+.footer-social ul {
+    display: flex;
+}
+
+.footerRight {
+    text-align: left;
+    padding: 5% 0% 5% 0%;
+}
+.footerRight p{
+    color: white;
+    text-align: left;
+    padding: 5% 5% 5% 0%;
+}
+.footerRightAdresse {
+    font-family: "Playfair Display";
+}
+.footerRight a{
+    text-decoration: none;
+    color: red;
+}
+
+footer li{
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+
+}
+
+.container-partners{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.titlepartner{
+    font-size: 20px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container-4 {
+
+    position: relative;
+
+}
+
+
+nav {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    left: 0;
+    top: 0;
+    margin-left: 900px;
+}
+
+section {
+    margin-right: 850px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #909683;
+
+}
+
+section p{
+    width: 734px;
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+.button1{
+    color: white;
+    border-radius:5px;
+    border:1px solid #af2018;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    cursor:pointer;
+    background-color: #af2018;
+    max-width: 150px;
+}
+
+.single-article {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.sidebar {
+    width: 25%;
+    margin-right: 400px;
+    text-align: justify;
+    padding-left: 15px;
+    border-left: 1px solid #909683;
+
+}
+
+.alignnone {
+    width: 750px;
+    height: 350px;
+}
+
+.commentlist {
+    margin-left: 100px;
+}
+
